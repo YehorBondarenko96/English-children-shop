@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>ECS Products </title>
+        <link rel="icon" type="image/png" href="./imges/Знімок екрана 2023-11-02 о 23.07.56.jpg"/>
         <link href="./css/index.css" rel="stylesheet"/>
     </head>
     <body>
@@ -53,21 +54,28 @@
                 </div>
             </div>
         </header>
-        <main class="container">
-            <div class="selects">
-                <div class="select">
-                    <p class="p-select">My books</p>
-                    <select></select>
+        <main class="container main-products">
+                <ul class="gallery">
+                    <li>
+                        <button class="button-gallery" type="button">
+                            <img class="img-manual" src="./imges/Знімок екрана 2023-11-04 о 12.39.46.png" alt="manual"/>
+                            <h3 class="h3-manual">I can read<br> <span>Part 1</span></h3>
+                            <p class="p-manual">Brief description of the manual. Maximum of 400 characters</p>
+                        </button>
+                    </li>
+                </ul>
+                <div class="modal-gallery visually-hidden">
+                    <iframe 
+                        id="video-gallery"
+                        width="640"
+                        height="360"
+                        src="https://www.youtube.com/embed/EbHGS_bVkXY"
+                        frameborder="0"
+                        allowfullscreen
+                        allow="autoplay; encrypted-media"
+                    ></iframe>
+
                 </div>
-                <div class="select">
-                    <p class="p-select">My games</p>
-                    <select></select>
-                </div>
-                <div class="select">
-                    <p class="p-select">My other developments</p>
-                    <select></select>
-                </div>
-            </div>
         </main>
         <footer>
             <div class="footer-conteiner">
@@ -105,4 +113,5 @@
         </footer>
 
         <script src="./js/mobile-menu.js" type="module"></script>
+        <script src="./js/my-products.js" type="module"></script>
     </body>

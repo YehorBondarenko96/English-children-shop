@@ -1,3 +1,16 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 body{
     margin: 0;
     display: flex;
@@ -226,6 +239,64 @@ footer{
     line-height: 1.5;
     letter-spacing: 0.72px;
 }
+
+
+
+
+.gallery li{
+    display: flex;
+}
+
+.button-gallery{
+    width: 200px;
+    padding: 0;
+    border: transparent 1px solid;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-manual{
+    width: 100%;
+}
+
+.p-manual{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    background-color: #ffffffcc;
+    transform: translateY(100%);
+    z-index: 1;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-gallery:hover .p-manual{
+    transform: translateY(0);
+}
+
+.main-products{
+    position: relative;
+}
+
+.modal-gallery{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffffcc;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 @media (min-width:768px){
     .container {
