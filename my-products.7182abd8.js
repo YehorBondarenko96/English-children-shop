@@ -1,0 +1,2 @@
+const e=document.querySelector(".button-gallery"),t=document.querySelector(".modal-gallery"),l=document.querySelector("#video-gallery"),n=()=>{t.classList.add("visually-hidden"),t.removeEventListener("click",n)};e.addEventListener("click",(()=>{t.classList.remove("visually-hidden"),t.addEventListener("click",n)})),t.classList.contains("visually-hidden")&&l.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}',"*");
+//# sourceMappingURL=my-products.7182abd8.js.map
