@@ -14,6 +14,7 @@
   },
   "license": "ISC",
   "dependencies": {
+    "@vimeo/player": "^2.20.1",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
