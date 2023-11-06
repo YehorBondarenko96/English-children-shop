@@ -13,17 +13,17 @@ export const galleryItems = [
     },
     {
         id: 4,
-        urlVideo: 'https://www.youtube.com/embed/T36jXO2mDc8?si=C_FOBbl3nDouEm09'
+        urlVideo: 'https://www.youtube.com/embed/af59U2BRRAU?si=1JBTWaCpQIJ1yp7E'
     },{
         id: 5,
-        urlVideo: 'https://www.youtube.com/embed/T36jXO2mDc8?si=C_FOBbl3nDouEm09'
+        urlVideo: 'https://www.youtube.com/embed/Rr8ljRgcJNM?si=XrmOqwaHiHOhE3ve'
     },
     {
         id: 6,
-        urlVideo: 'https://www.youtube.com/embed/T36jXO2mDc8?si=C_FOBbl3nDouEm09'
+        urlVideo: 'https://www.youtube.com/embed/EOnSh3QlpbQ?si=MyQjkoMzsgwwOd2D'
     },{
         id: 7,
-        urlVideo: 'https://www.youtube.com/embed/T36jXO2mDc8?si=C_FOBbl3nDouEm09'
+        urlVideo: 'https://www.youtube.com/embed/GukNjYQZW8s?si=07iPmIbSpvQ61W3N'
     },
     {
         id: 8,
