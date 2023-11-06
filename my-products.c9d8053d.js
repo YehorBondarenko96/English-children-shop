@@ -1,2 +1,0 @@
-!function(){var e=document.querySelector(".button-gallery"),n=document.querySelector(".modal-gallery"),t=document.querySelector("#video-gallery"),c=function(){n.classList.add("visually-hidden"),n.removeEventListener("click",c)};e.addEventListener("click",(function(){n.classList.remove("visually-hidden"),n.addEventListener("click",c)})),n.classList.contains("visually-hidden")&&t.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}',"*")}();
-//# sourceMappingURL=my-products.c9d8053d.js.map
