@@ -1,4 +1,6 @@
 import { galleryItems } from "./gallety-my-products";
+import idItemButtonMenu from "./menu-my-products";
+console.log(idItemButtonMenu);
 
 const buttonsGallery = document.querySelectorAll('.button-gallery');
 const modalGallery = document.querySelector('.modal-gallery');
@@ -35,4 +37,6 @@ function renderItemsVideo (event, galleryItems) {
     allowfullscreen>
 </iframe>`;
 };
+
+
 

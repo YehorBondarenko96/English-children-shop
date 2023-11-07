@@ -1,4 +1,4 @@
-export const galleryItems = [
+export const learningToReadData = [
     {
         id: 1,
         urlVideo: 'https://www.youtube.com/embed/6HGwX-nk7tc?si=tfgav0ZY4CUeQ_E6'
@@ -6,7 +6,9 @@ export const galleryItems = [
     {
         id: 2,
         urlVideo: 'https://www.youtube.com/embed/EbHGS_bVkXY?si=1VX27bp7XQqCoQk5'
-    },
+    }
+];
+export const galleryItems = [
     {
         id: 3,
         urlVideo: 'https://www.youtube.com/embed/ScNNfyq3d_w?si=xHfaYUDnfb7n5i94'
