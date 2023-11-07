@@ -153,6 +153,32 @@ header{
     color: #FFEA00;
 }
 
+.div-button-menu{
+    position: relative;
+}
+
+.button-menu{
+    background-color: transparent;
+    border: 0;
+}
+
+.list-button-menu{
+    width: 220px;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    z-index: 2;
+}
+
+.item-button-menu{
+    font-size: 18px;
+    color: #FFEA00;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
 .nav{
     flex: 1;
 }
@@ -346,6 +372,7 @@ footer{
         max-width: 100%;
         width: 100%;
         min-width: 0;
+        overflow: visible;
     }
 
     .is-open {
@@ -435,10 +462,6 @@ footer{
         margin-left: auto;
         margin-right: 20px;
         max-width: 550px;
-    }
-
-    .mobile-version{
-        overflow: hidden;
     }
 
     .social-address-modal{
