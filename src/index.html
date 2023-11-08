@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>English children shop </title>
         <link rel="icon" type="image/png" href="./imges/photo_2023-11-07 02.36.39.jpg"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+        <link href="./css/modern-normalize.min.css" rel="stylesheet"/>
         <link href="./css/index.css" rel="stylesheet"/>
     </head>
     <body>
@@ -31,9 +35,9 @@
                                 <div class="div-button-menu">
                                 <button class="item-menu-header button-menu"><span data-text="M">M</span><span data-text="y">y</span> <span data-text="p">p</span><span data-text="r">r</span><span data-text="o">o</span><span data-text="d">d</span><span data-text="u">u</span><span data-text="c">c</span><span data-text="t">t</span><span data-text="s">s</span></button>
                                 <ul class="list-button-menu">
-                                    <li><a id="learning-to-read" class="item-button-menu link" href="./my-products.html">Посібник з навчання читанню</a></li>
-                                    <li><a class="item-button-menu link" href="./my-products.html">Презентації для уроків</a></li>
-                                    <li><a class="item-button-menu link" href="./my-products.html">Інтерактивний словник</a></li>
+                                    <li><button id="learningToReadData" class="item-button-menu">Посібник з навчання читанню</button></li>
+                                    <li><button id="presentationsForLessons" class="item-button-menu">Презентації для уроків</button></li>
+                                    <li><button id="interactiveDictionary" class="item-button-menu" >Інтерактивний словник</button></li>
                                 </ul>
                                 </div>
                             </li>
@@ -70,7 +74,7 @@
             <div class="text-about-liza">
             <h2 class="full-name">Liza Cheberyak</h2>
             <p class="p-about-liza">
-                <span>Еducation</span>
+                <span>Education</span>
                 <span>Experience</span>
                 <span>Own activity</span>
                 <span class="another-about-liza">In short, Lisa is a cool chick</span>
@@ -115,5 +119,6 @@
         </footer>
         <script src="./js/menu-my-products.js" tupe="module"></script>
         <script src="./js/mobile-menu.js" type="module"></script>
+        <script src="./js/my-products.js" type="module"></script>
     </body>
 </html>

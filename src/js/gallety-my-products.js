@@ -1,4 +1,5 @@
-export const learningToReadData = [
+export const galleryItems = {
+learningToRead: [
     {
         id: 1,
         urlVideo: 'https://www.youtube.com/embed/6HGwX-nk7tc?si=tfgav0ZY4CUeQ_E6'
@@ -7,8 +8,8 @@ export const learningToReadData = [
         id: 2,
         urlVideo: 'https://www.youtube.com/embed/EbHGS_bVkXY?si=1VX27bp7XQqCoQk5'
     }
-];
-export const galleryItems = [
+],
+presentationsForLessons: [
     {
         id: 3,
         urlVideo: 'https://www.youtube.com/embed/ScNNfyq3d_w?si=xHfaYUDnfb7n5i94'
@@ -30,7 +31,9 @@ export const galleryItems = [
     {
         id: 8,
         urlVideo: 'https://www.youtube.com/embed/_Yhyp-_hX2s?si=FQWU0Nj1tWDlJoKI'
-    },
+    }
+],
+interactiveDictionary: [
     {
         id: 9,
         urlVideo: 'https://www.youtube.com/embed/5Sj7_40mCM8?si=MAPbInTpCB33koBZ'
@@ -40,3 +43,4 @@ export const galleryItems = [
         urlVideo: 'https://www.youtube.com/embed/Klbxq2c9IY4?si=0DnQrs-iIhJjvjqt'
     }
 ]
+}

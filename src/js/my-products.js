@@ -1,9 +1,12 @@
 import { galleryItems } from "./gallety-my-products";
-import idItemButtonMenu from "./menu-my-products";
-console.log(idItemButtonMenu);
+console.log(galleryItems.learningToRead);
 
+const main = document.querySelector('main');
 const buttonsGallery = document.querySelectorAll('.button-gallery');
 const modalGallery = document.querySelector('.modal-gallery');
+const itemsButtonMenu = document.querySelectorAll('.item-button-menu');
+
+let idItemButtonMenu = '';
 
 const removeVisuallyHidden = () => {
     modalGallery.classList.remove('visually-hidden');
@@ -38,5 +41,18 @@ function renderItemsVideo (event, galleryItems) {
 </iframe>`;
 };
 
+function readIdButtonMenu (event) {
+    idItemButtonMenu = event.currentTarget.getAttribute('id');
+    console.log(idItemButtonMenu);
+    return idItemButtonMenu
+};
 
+itemsButtonMenu.forEach((itemButtonMenu) => {
+itemButtonMenu.addEventListener('click', readIdButtonMenu)
+});
+
+function renderMainForProducts() {
+    const itemMainForProducts = 
+    main.innerHTML = itemMainForProducts;
+}
 

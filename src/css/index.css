@@ -35,6 +35,8 @@ img{
 
 button{
     cursor: pointer;
+    background-color: transparent;
+    border: transparent 0 solid;
 }
 
 .link{
@@ -225,6 +227,7 @@ header{
 .p-about-liza{
     display: flex;
     flex-direction: column;
+    font-family: 'Tangerine', cursive;
 }
 
 footer{
