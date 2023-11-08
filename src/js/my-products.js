@@ -1,5 +1,4 @@
 import { galleryItems } from "./gallety-my-products";
-console.log(galleryItems.learningToRead);
 
 const main = document.querySelector('main');
 const buttonsGallery = document.querySelectorAll('.button-gallery');
@@ -43,16 +42,16 @@ function renderItemsVideo (event, galleryItems) {
 
 function readIdButtonMenu (event) {
     idItemButtonMenu = event.currentTarget.getAttribute('id');
-    console.log(idItemButtonMenu);
     return idItemButtonMenu
 };
 
 itemsButtonMenu.forEach((itemButtonMenu) => {
-itemButtonMenu.addEventListener('click', readIdButtonMenu)
+itemButtonMenu.addEventListener('click', renderMainForProducts)
 });
 
 function renderMainForProducts() {
-    const itemMainForProducts = 
+    readIdButtonMenu(event);
+    const itemMainForProducts = galleryItems[idItemButtonMenu];
     main.innerHTML = itemMainForProducts;
 }
 
