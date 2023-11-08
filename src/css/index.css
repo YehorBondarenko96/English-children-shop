@@ -224,10 +224,17 @@ header{
     width: 200px;
 }
 
-.p-about-liza{
+.a-about-liza{
     display: flex;
     flex-direction: column;
-    font-family: 'Tangerine', cursive;
+    color: #FFEA00;
+    font-family: 'Nova Round', 'Times New Roman', 'Roboto',  sans-serif;
+    -webkit-text-stroke: 0.5px #000;
+    text-stroke: 0.5px #000;
+}
+
+.a-about-liza:hover{
+    color: yellowgreen;
 }
 
 footer{
@@ -287,8 +294,7 @@ footer{
     height: 30px;
 }
 
-.link-footer:hover,
-.link-footer:focus{
+.link-footer:hover{
     fill: greenyellow;
 }
 
@@ -509,11 +515,12 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-transform: uppercase;
+        justify-content: center;
     }
 
     .full-name{
         font-size: 24px;
+        text-align: center;
     }
 
     .p-about-liza{
