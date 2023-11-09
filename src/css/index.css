@@ -140,19 +140,28 @@ header{
 }
 
 .item-menu-header{
-    font-size: 36px;
-    color: #000;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.72px;
     padding: 0;
     display: block;
-    transition: color 250ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
 .item-menu-header:hover,
 .item-menu-header:focus{
     color: #FFEA00;
+}
+
+.img-menu-header{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.p-menu-header{
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.72px;
+    transition: color 250ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
 .div-button-menu{
@@ -450,11 +459,6 @@ footer{
         min-width: 100%;
     }
 
-    .item-menu-header span{
-        position: relative;
-        text-decoration: none;
-    }
-
     .item-menu-header span::before {
         content: attr(data-text); 
         position: absolute;
@@ -490,6 +494,27 @@ footer{
         margin-left: auto;
         margin-right: 20px;
         max-width: 550px;
+    }
+
+    .item-menu-header{
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid red;
+    }
+
+    .p-menu-header{
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        transform: translate(-0%, -0%);
+    }
+
+    .letter-menu-headaer{
+        position: absolute;
+        width: 0;
+        outline: 1px solid green;
+        transform-origin: 50% 50%;
+        padding-top: 50px;
     }
 
     .social-address-modal{

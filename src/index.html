@@ -14,9 +14,9 @@
     <body>
         <header>
             <div class="container header-div">
-                <a class="a-logo link" href="./index.html">
+                <!-- <a class="a-logo link" href="./index.html">
                     <img class="img-logo-header" src="./imges/photo_2023-11-07 02.36.39.jpg" alt="lemon"/>
-                </a> 
+                </a>  -->
                 <button class="header-button open-menu js-open-menu" type="button">
                     <svg width="30" height="30">
                         <use href ="imges/symbol-defs.svg#icon-menu"></use>
@@ -30,7 +30,17 @@
                             </svg>
                         </button>
                         <ul class="list-menu-header">
-                            <li><a class="item-menu-header link current selected-item" href="./index.html"><span class="span-letter" data-text="H">H</span><span class="span-letter" data-text="o">o</span><span class="span-letter" data-text="m">m</span><span class="span-letter" data-text="e">e</span></a> </li>
+                            <li><a class="item-menu-header link" href="./index.html">
+                                <img class="img-menu-header" src="./imges/Home.jpg" alt="home"/>
+                                <p class="p-menu-header current selected-item">
+                                    <span class="letter-menu-headaer">H</span>
+                                    <span class="letter-menu-headaer">o</span>
+                                    <span class="letter-menu-headaer">m</span>
+                                    <span class="letter-menu-headaer">m</span>
+                                    <span class="letter-menu-headaer">e</span>
+                                </p>
+                            </a> 
+                        </li>
                             <li>
                                 <div class="div-button-menu">
                                 <button class="item-menu-header button-menu"><span data-text="M">M</span><span data-text="y">y</span> <span data-text="p">p</span><span data-text="r">r</span><span data-text="o">o</span><span data-text="d">d</span><span data-text="u">u</span><span data-text="c">c</span><span data-text="t">t</span><span data-text="s">s</span></button>
@@ -112,7 +122,8 @@
             </div>
             </div>
         </footer>
-        <script src="./js/menu-my-products.js" tupe="module"></script>
+        <script src="./js/rounded-text.js" type="module"></script>
+        <script src="./js/menu-my-products.js" type="module"></script>
         <script src="./js/mobile-menu.js" type="module"></script>
         <script src="./js/my-products.js" type="module"></script>
     </body>

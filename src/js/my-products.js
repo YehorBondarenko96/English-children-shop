@@ -33,17 +33,12 @@ function renderItemsVideo (event, galleryItems) {
 </iframe>`;
 };
 
-function readIdButtonMenu (event) {
-    idItemButtonMenu = event.currentTarget.getAttribute('id');
-    return idItemButtonMenu
-};
-
 itemsButtonMenu.forEach((itemButtonMenu) => {
 itemButtonMenu.addEventListener('click', renderMainForProducts)
 });
 
-function renderMainForProducts() {
-    readIdButtonMenu(event);
+function renderMainForProducts(event) {
+    idItemButtonMenu = event.currentTarget.getAttribute('id');
     const itemMainForProducts = galleryItems[idItemButtonMenu].map((galleryItem) =>
         `<li>
         <button id="${galleryItem.id}" class="button-gallery" type="button">
