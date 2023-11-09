@@ -499,7 +499,6 @@ footer{
     .item-menu-header{
     position: relative;
     border-radius: 50%;
-    border: 1px solid red;
     }
 
     .p-menu-header{
@@ -512,9 +511,9 @@ footer{
     .letter-menu-headaer{
         position: absolute;
         width: 0;
-        outline: 1px solid green;
-        transform-origin: 50% 50%;
+        transform-origin: 0% 0%;
         padding-top: 50px;
+        font-family: 'Roboto Mono', monospace;
     }
 
     .social-address-modal{
