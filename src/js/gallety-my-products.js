@@ -11,7 +11,7 @@ learningToRead: [
     {
         id: 2,
         urlVideo: 'https://www.youtube.com/embed/EbHGS_bVkXY?si=1VX27bp7XQqCoQk5',
-        img: '/Знімок%20екрана%202023-11-06%20о%2013.47.08.91e0e557.jpg',
+        img: './imges/Знімок%20екрана%202023-11-06%20о%2013.47.08.91e0e557.jpg',
         description: 'Brief description of the manual. Maximum of 400 characters',
         name: 'I can read',
         surname: 'Part 1'
@@ -21,7 +21,7 @@ presentationsForLessons: [
     {
         id: 3,
         urlVideo: 'https://www.youtube.com/embed/ScNNfyq3d_w?si=xHfaYUDnfb7n5i94',
-        img: '/Знімок%20екрана%202023-11-04%20о%2012.39.46.9dfafe85.png',
+        img: './imges/DSC_0012 (1).jpg',
         description: 'Brief description of the manual. Maximum of 400 characters',
         name: 'I can read',
         surname: 'Part 1'
