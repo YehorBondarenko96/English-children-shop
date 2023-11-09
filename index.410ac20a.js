@@ -1,0 +1,2 @@
+!function(){var e=document.querySelectorAll(".header-menu-home"),r=document.querySelectorAll(".header-menu-for-lessons-one"),o=document.querySelectorAll(".header-menu-for-lessons-two");function t(e,r){var o=(r.length-.5)/2*-e,t=!0,n=!1,l=void 0;try{for(var u,a=r[Symbol.iterator]();!(t=(u=a.next()).done);t=!0){u.value.style.transform="rotate(".concat(o,"deg)"),o+=e}}catch(e){n=!0,l=e}finally{try{t||null==a.return||a.return()}finally{if(n)throw l}}}t(-10,e),t(-8,r),t(-6.5,o)}();
+//# sourceMappingURL=index.410ac20a.js.map
