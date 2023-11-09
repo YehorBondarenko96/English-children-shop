@@ -1,2 +1,0 @@
-!function(){var r=document.querySelectorAll(".letter-menu-headaer");!function(t){var e=(r.length-1)/2*-t;console.log(e);var n=!0,l=!1,o=void 0;try{for(var a,c=r[Symbol.iterator]();!(n=(a=c.next()).done);n=!0){a.value.style.transform="rotate(".concat(e,"deg)"),e+=t}}catch(r){l=!0,o=r}finally{try{n||null==c.return||c.return()}finally{if(l)throw o}}}(-30)}();
-//# sourceMappingURL=index.6274fa5d.js.map
