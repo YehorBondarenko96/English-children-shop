@@ -42,7 +42,7 @@ function renderMainForProducts(event) {
     const itemMainForProducts = galleryItems[idItemButtonMenu].map((galleryItem) =>
         `<li>
         <button id="${galleryItem.id}" class="button-gallery" type="button">
-        <img class="img-manual" src="./imges/${galleryItem.img}" alt="manual"/>
+        <img class="img-manual" src="${galleryItem.img}" alt="manual"/>
         <h3 class="h3-manual">${galleryItem.name}<br> <span>${galleryItem.surname}</span></h3>
         <p class="p-manual">${galleryItem.description}</p>
         <p class="button-for-more">Click to learn more</p>

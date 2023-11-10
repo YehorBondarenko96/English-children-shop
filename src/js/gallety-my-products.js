@@ -29,14 +29,14 @@ presentationsForLessons: [
     {
         id: 4,
         urlVideo: 'https://www.youtube.com/embed/af59U2BRRAU?si=1JBTWaCpQIJ1yp7E',
-        img: '/Знімок%20екрана%202023-11-06%20о%2013.47.08.91e0e557.jpg',
+        img: "./imges/Знімок екрана 2023-11-06 о 13.47.08.jpg",
         description: 'Brief description of the manual. Maximum of 400 characters',
         name: 'I can read',
         surname: 'Part 1'
     },{
         id: 5,
         urlVideo: 'https://www.youtube.com/embed/Rr8ljRgcJNM?si=XrmOqwaHiHOhE3ve',
-        img: '/Знімок%20екрана%202023-11-04%20о%2012.39.46.9dfafe85.png',
+        img: './imges/Знімок екрана 2023-11-06 о 13.47.08.jpg',
         description: 'Brief description of the manual. Maximum of 400 characters',
         name: 'I can read',
         surname: 'Part 1'
