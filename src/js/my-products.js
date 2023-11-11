@@ -75,7 +75,7 @@ function renderMainForProducts(event) {
 
 
 
-// const imgManual = document.querySelector('.img-manual');
+const imgManual = document.querySelector('.img-manual');
 // imgManual.src="imges/screenshot_2023-11-06_in_13-47-08.jpg";
-// imgManual.src="/screenshot_2023-11-06_in_13-47-08.69207a1a.jpg";
-// imgManual.alt="manual";
+imgManual.src="/English-children-shop/screenshot_2023-11-06_in_13-47-08.2c4cbc44.jpg";
+imgManual.alt="manual";
