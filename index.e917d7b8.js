@@ -1,0 +1,2 @@
+const e=document.querySelectorAll(".header-menu-home"),o=document.querySelectorAll(".header-menu-for-lessons-one"),r=document.querySelectorAll(".header-menu-for-lessons-two"),t=document.querySelectorAll(".header-menu-for-teachers-one"),l=document.querySelectorAll(".header-menu-for-teachers-two"),n=document.querySelectorAll(".header-menu-contacts");function u(e,o){let r=(o.length-.5)/2*-e;for(let t of o)t.style.transform=`rotate(${r}deg)`,r+=e}u(-10,e),u(-8,o),u(-6.5,r),u(-8,t),u(-6.5,l),u(-9,n);
+//# sourceMappingURL=index.e917d7b8.js.map
