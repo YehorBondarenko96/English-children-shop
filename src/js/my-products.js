@@ -45,7 +45,7 @@ function renderMainForProducts(event) {
     const itemMainForProducts = galleryItems[idItemButtonMenu].map((galleryItem) =>
         `<li>
         <button id="${galleryItem.id}" class="button-gallery" type="button">
-        <img class="img-manual" src="../imges/screenshot_2023-11-06_in_13-47-08.jpg" alt="manual"/>
+        <img class="img-manual" src="${galleryItem.img}" alt="manual"/>
         <h3 class="h3-manual">${galleryItem.name}<br> <span>${galleryItem.surname}</span></h3>
         <p class="p-manual">${galleryItem.description}</p>
         <p class="button-for-more">Click to learn more</p>
@@ -70,12 +70,3 @@ function renderMainForProducts(event) {
     });
 });
 };
-
-
-
-
-
-const imgManual = document.querySelector('.img-manual');
-// imgManual.src="imges/screenshot_2023-11-06_in_13-47-08.jpg";
-imgManual.src="https://photos.app.goo.gl/nxHevoTmfEMnZJFq9";
-imgManual.alt="manual";
