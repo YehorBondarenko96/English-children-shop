@@ -1,2 +1,0 @@
-!function(){var t=document.querySelector(".list-button-menu"),n=document.querySelector(".button-menu");n.addEventListener("click",(function(){t.classList.add("button-menu-focus")})),document.addEventListener("click",(function(e){n.contains(e.target)||t.contains(e.target)?t.contains(e.target)&&setTimeout((function(){t.classList.remove("button-menu-focus")}),100):t.classList.remove("button-menu-focus")}))}();
-//# sourceMappingURL=index.8544e19b.js.map

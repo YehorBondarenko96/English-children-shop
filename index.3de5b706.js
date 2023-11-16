@@ -1,2 +1,0 @@
-const t=document.querySelector(".list-button-menu"),e=document.querySelector(".button-menu");e.addEventListener("click",(()=>{t.classList.add("button-menu-focus")})),document.addEventListener("click",(n=>{e.contains(n.target)||t.contains(n.target)?t.contains(n.target)&&setTimeout((()=>{t.classList.remove("button-menu-focus")}),100):t.classList.remove("button-menu-focus")}));
-//# sourceMappingURL=index.3de5b706.js.map
