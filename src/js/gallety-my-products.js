@@ -82,5 +82,41 @@ interactiveDictionary: [
         name: 'I can read',
         surname: 'Part 1'
     }
+],
+mkForTutors: [
+    {
+        id: 11,
+        urlVideo: 'https://www.youtube.com/embed/5Sj7_40mCM8?si=MAPbInTpCB33koBZ',
+        img: 'https://i.imgur.com/72V2Fme.jpg',
+        description: 'Brief description of the manual. Maximum of 400 characters',
+        name: 'I can read',
+        surname: 'Part 1'
+    },
+    {
+        id: 12,
+        urlVideo: 'https://www.youtube.com/embed/Klbxq2c9IY4?si=0DnQrs-iIhJjvjqt',
+        img: 'https://i.imgur.com/1z4fFha.jpg',
+        description: 'Brief description of the manual. Maximum of 400 characters',
+        name: 'I can read',
+        surname: 'Part 1'
+    }
+],
+individualConsultations: [
+    {
+        id: 13,
+        urlVideo: 'https://www.youtube.com/embed/5Sj7_40mCM8?si=MAPbInTpCB33koBZ',
+        img: 'https://i.imgur.com/72V2Fme.jpg',
+        description: 'Brief description of the manual. Maximum of 400 characters',
+        name: 'I can read',
+        surname: 'Part 1'
+    },
+    {
+        id: 14,
+        urlVideo: 'https://www.youtube.com/embed/Klbxq2c9IY4?si=0DnQrs-iIhJjvjqt',
+        img: 'https://i.imgur.com/1z4fFha.jpg',
+        description: 'Brief description of the manual. Maximum of 400 characters',
+        name: 'I can read',
+        surname: 'Part 1'
+    }
 ]
 }

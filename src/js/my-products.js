@@ -1,4 +1,5 @@
 import { galleryItems } from "./gallety-my-products";
+import {mobileMenu} from "./mobile-menu";
 
 const main = document.querySelector('main');
 
@@ -41,6 +42,7 @@ function renderItemsVideo (event, galleryItems) {
 
 
 function renderMainForProducts(event) {
+    mobileMenu.classList.toggle('is-open');
     idItemButtonMenu = event.currentTarget.getAttribute('id');
     const itemMainForProducts = galleryItems[idItemButtonMenu].map((galleryItem) =>
         `<li>
